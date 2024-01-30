@@ -1,0 +1,259 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seminar Schedule</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    
+
+    .container {
+      max-width: 100%;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-top: 0;
+    }
+
+    h2 {
+      color: #333;
+      margin-top: 30px;
+    }
+
+    .column {
+      width: 50%;
+      float: left;
+    }
+
+    .seminar-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .seminar-list li {
+      margin-bottom: 20px;
+    }
+
+    .seminar-list li strong {
+      font-weight: bold;
+    }
+
+    .seminar-card {
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-radius: 4px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    #semester-dropdown {
+      margin-bottom: 20px;
+      padding: 8px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      color: #333;
+    }
+    .separator {
+      border-top: 1px solid #ccc;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Seminar Schedule</h1>
+  
+    <h2>Internal group seminar</h2>
+    <h4>The seminars are being held in the seminar room Fraunhoferstraße 8 every Tuesday at 14:00.</h4>
+    <div class="separator"></div>
+    <h4>Today's Seminar:</h4>
+    <ul id="today-seminar-list"></ul>
+    <div class="separator"></div>
+    <div class="column">
+      <h3>Presented</h3>
+      <ul id="presented-seminar-list"></ul>
+    </div>
+    <div class="column">
+      <h3>Upcoming</h3>
+      <ul id="upcoming-seminar-list"></ul>
+    </div>
+</div>
+
+
+    <h2>Previous semester seminars</h2>
+    <select id="semester-dropdown">
+      <option value="">Select a semester</option>
+    </select>
+    <h2>Seminar Details</h2>
+    <ul id="seminar-list"></ul>
+  
+    <script>
+      $(document).ready(function() {
+        var currentYear = new Date().getFullYear();
+        var currentMonth = new Date().getMonth()+1;
+        var isSummerSemester = currentMonth >= 4 && currentMonth <= 9;
+		// Determine the current semester dynamically
+		var currentSemester = isSummerSemester ? 'Summer' : 'Winter';
+        var seminarData = [
+          {% for seminar in site.data.seminars %}
+          {
+            date: "{{ seminar.date }}",
+            speaker: "{{ seminar.speaker }}",
+            title: "{{ seminar.title }}",
+            semester: "{{ seminar.semester }}"
+          },
+          {% endfor %}
+        ];
+		  var currentDate = new Date();
+    var currentYear = currentDate.getFullYear();
+    var currentMonth = currentDate.getMonth() + 1;
+    var isSummerSemester = currentMonth >= 4 && currentMonth <= 9;
+    var currentSemester = isSummerSemester ? 'Summer' : 'Winter';
+
+    var presentedSeminarList = "";
+    var upcomingSeminarList = "";
+    var todaySeminarList = "";
+
+    seminarData.forEach(function(seminar) {
+      var seminarDate = new Date(seminar.date);
+      var seminarYear = seminarDate.getFullYear();
+      var seminarMonth = seminarDate.getMonth() + 1;
+      var seminarSemester = seminarMonth >= 4 && seminarMonth <= 9 ? 'Summer' : 'Winter';
+
+      if (seminarSemester === currentSemester && seminarMonth > 9 && seminarYear === currentYear-1 || seminarYear === currentYear) {
+        if (seminarDate.toLocaleDateString() === currentDate.toLocaleDateString()) {
+          var listItem = "<li><strong>" + seminar.date + "</strong><br>";
+          listItem += "Speaker: " + seminar.speaker + "<br>";
+          listItem += "Title: " + seminar.title + "<br>";
+          todaySeminarList += listItem;
+        } else if (seminarDate < currentDate) {
+          var listItem = "<li><strong>" + seminar.date + "</strong><br>";
+          listItem += "Speaker: " + seminar.speaker + "<br>";
+          listItem += "Title: " + seminar.title + "<br>";
+          presentedSeminarList += listItem;
+        } else {
+          var listItem = "<li><strong>" + seminar.date + "</strong><br>";
+          listItem += "Speaker: " + seminar.speaker + "<br>";
+          listItem += "Title: " + seminar.title + "<br>";
+          upcomingSeminarList += listItem;
+        }
+      }
+	  else if (seminarSemester === currentSemester && seminarYear === currentYear) {
+		if (seminarDate.toLocaleDateString() === currentDate.toLocaleDateString()) {
+          var listItem = "<li><strong>" + seminar.date + "</strong><br>";
+          listItem += "Speaker: " + seminar.speaker + "<br>";
+          listItem += "Title: " + seminar.title + "<br>";
+          todaySeminarList += listItem;
+        } else if (seminarDate < currentDate) {
+          var listItem = "<li><strong>" + seminar.date + "</strong><br>";
+          listItem += "Speaker: " + seminar.speaker + "<br>";
+          listItem += "Title: " + seminar.title + "<br>";
+          presentedSeminarList += listItem;
+        } else {
+          var listItem = "<li><strong>" + seminar.date + "</strong><br>";
+          listItem += "Speaker: " + seminar.speaker + "<br>";
+          upcomingSeminarList += listItem;
+        }
+	  }
+    });
+
+    if (todaySeminarList === "") {
+      todaySeminarList = "No seminar for today";
+    }
+
+    $("#today-seminar-list").html(todaySeminarList);
+    $("#presented-seminar-list").html(presentedSeminarList);
+    $("#upcoming-seminar-list").html(upcomingSeminarList);
+
+        // Populate semester dropdown
+        var semesterOptions = "";
+        var semesterMap = {};
+    
+        seminarData.forEach(function(seminar) {
+          var year = new Date(seminar.date).getFullYear();
+          var month = new Date(seminar.date).getMonth() + 1;
+          var semester = month >= 4 && month <= 9 ? 'Summer' : 'Winter';
+          var academicYear = '';
+    
+          if (month >= 9) {
+            academicYear = year + '-' + (year + 1);
+          } else {
+            academicYear = (year - 1) + '-' + year;
+          }
+          if (year !== currentYear || semester !== currentSemester) {   
+          if (!semesterMap[academicYear + ' ' + semester]) {
+            semesterMap[academicYear + ' ' + semester] = true;
+            if (semester == 'Summer'){
+              semesterOptions += "<option value='" + year + " " + semester + "'>" + year + " " + semester + "</option>";
+            }else{
+            semesterOptions += "<option value='" + academicYear + " " + semester + "'>" + academicYear + " " + semester + "</option>";
+            }
+          }
+        }
+        });
+    
+        $("#semester-dropdown").append(semesterOptions);
+    
+        // Update seminar list when dropdown changes
+        $("#semester-dropdown").change(function() {
+          var selectedOption = $(this).val();
+    
+          if (selectedOption === "") {
+            $("#seminar-list").empty();
+            return;
+          }
+      
+          selectedSemester = selectedOption.split(" ")[1];
+          if (selectedSemester == 'Summer'){
+            selectedAcademicYear = (selectedOption.split(" ")[0]-1) + '-' + selectedOption.split(" ")[0] ;
+          }
+          else {
+          selectedAcademicYear = selectedOption.split(" ")[0];}
+        
+        
+          var filteredSeminars = seminarData.filter(function(seminar) {
+            var year = new Date(seminar.date).getFullYear();
+            var month = new Date(seminar.date).getMonth() + 1;
+            var semester = month >= 4 && month <= 9 ? 'Summer' : 'Winter';
+            var academicYear = '';
+    
+            if (month >= 9) {
+              academicYear = year + '-' + (year + 1);
+            } else {
+              academicYear = (year - 1) + '-' + year;
+            }
+    
+            return academicYear === selectedAcademicYear && semester === selectedSemester;
+          });
+    
+          var seminarList = "";
+    
+          filteredSeminars.forEach(function(seminar) {
+            seminarList += "<li><strong>" + seminar.date + "</strong><br>";
+            seminarList += "Speaker: " + seminar.speaker + "<br>";
+            seminarList += "Title: " + seminar.title + "<br>";
+            seminarList += "Semester: " + seminar.semester + "</li><br>";
+          });
+    
+          $("#seminar-list").html(seminarList);
+        });
+    
+        // Set default selection to the first option in the dropdown
+        $("#semester-dropdown").val($("#semester-dropdown option:first").val());
+        $("#semester-dropdown").trigger("change");
+      });
+    </script>
+    
+</body>
+</html>

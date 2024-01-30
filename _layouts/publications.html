@@ -1,0 +1,170 @@
+---
+layout: default
+---
+<div id="gridid" class="col-sm-12">
+  {{ content }}
+</div>
+{% assign years = site.data.OldPubs | map: 'year' | uniq | sort: 'last' %}
+
+<style>
+.dropdown {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.dropdown option {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.publication {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.publication h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.publication p {
+  margin: 5px 0;
+}
+
+.publication a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.publication a:hover {
+  text-decoration: underline;
+}
+
+#publications-container ol {
+  counter-reset: publication-counter;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#publications-container ol li {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+#publications-container ol li:before {
+  content: counter(publication-counter) ".";
+  counter-increment: publication-counter;
+  position: absolute;
+  left: -30px;
+  font-weight: bold;
+}
+
+.dropdown-container {
+  margin-bottom: 20px;
+}
+#year-selector{
+      margin-bottom: 20px;
+      padding: 8px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      color: #333;
+}
+    /* Style for the publications container */
+    #publications {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Style for the publication list */
+    #publications ol {
+      list-style-type: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Display in 3 columns */
+      gap: 20px;
+    }
+
+    /* Style for each publication item */
+    .publi {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    /* Hover effect for publication items */
+    .publi:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Style for the publication title */
+    .publi h3 {
+      font-size: 20px;
+      color: #333;
+      margin: 0;
+	  font-weight: bold;
+    }
+
+    /* Style for the publication authors */
+    .publi em {
+      color: #777;
+    }
+
+    /* Style for the publication DOI link */
+    .publi a {
+      text-decoration: none;
+      color: #007bff;
+    }
+
+    /* Hover effect for the publication DOI link */
+    .publi a:hover {
+      text-decoration: underline;
+    }
+  </style>
+<div class="dropdown-container">
+  <select id="year-selector" class="dropdown">
+    <option value="">Select Year</option>
+    {% for year in years %}
+      <option value="{{ year }}">{{ year }}</option>
+    {% endfor %}
+  </select>
+</div>
+
+<div id="publications-container">
+  <ol>
+    {% for publi in site.data.OldPubs %}
+      <li class="publication" data-year="{{ publi.year }}" style="display: none;">
+        <h3>{{ publi.title }}</h3>
+        <p><em>{{ publi.authors }}</em></p>
+        <p>DOI: <a href="https://doi.org/{{ publi.doi }}">{{ publi.doi }}</a></p>
+      </li>
+    {% endfor %}
+  </ol>
+</div>
+
+<script>
+  const yearSelector = document.getElementById('year-selector');
+  const publicationsContainer = document.getElementById('publications-container');
+  const publications = Array.from(publicationsContainer.getElementsByClassName('publication'));
+
+  yearSelector.addEventListener('change', (event) => {
+    const selectedYear = event.target.value;
+
+    publications.forEach((publication) => {
+      const publicationYear = publication.getAttribute('data-year');
+      if (publicationYear === selectedYear) {
+        publication.style.display = 'block';
+      } else {
+        publication.style.display = 'none';
+      }
+    });
+  });
+</script>

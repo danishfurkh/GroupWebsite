@@ -1,0 +1,25 @@
+- name Dr. Liguang Jiao
+  role Post Doctorate
+  photo liguang.png
+  info post doc
+  room D202(HW)
+  tel 619
+  email lgjiao@jlu.edu.cn
+
+- name Dr. Yuancheng Wang
+  role Post Doctorate
+  photo yuancheng.jpg
+  info 
+  room D204(HW)
+  tel 619
+  email rickywangyc@aliyun.com
+  number_educ 0
+
+- name Baghdasar Baghdasaryan
+  role PhD
+  photo baghi.jpg
+  info  
+  room D203(HW)
+  tel ###
+  email baghdasar.baghdasaryan@uni-jena.de
+  number_educ 0
