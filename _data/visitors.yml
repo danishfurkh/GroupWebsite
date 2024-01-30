@@ -8,16 +8,16 @@
 #  education3:
 #  education4:
 
-- name: Abhishek Dutta 
-  photo: 
-  info: Guest
-  email: adutta20@iitk.ac.in
-  number_educ: 1
-  education1: IIT Kanpur
+# - name: Abhishek Dutta 
+#  photo: 
+#  info: Guest
+#  email: adutta20@iitk.ac.in
+#  number_educ: 1
+#  education1: IIT Kanpur
 
-- name: Aloka Kumar Sahoo 
-  photo: 
-  info: Guest
-  email: aloka_s@ph.iitr.ac.in
-  number_educ: 1
-  education1: IIT Roorkee
+# - name: Aloka Kumar Sahoo 
+#  photo: 
+#  info: Guest
+#  email: aloka_s@ph.iitr.ac.in
+#  number_educ: 1
+#  education1: IIT Roorkee
