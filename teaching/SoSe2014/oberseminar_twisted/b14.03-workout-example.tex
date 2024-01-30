@@ -1,0 +1,238 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{rotating}
+\usepackage[bf]{caption2} \captionstyle{normal}
+\usepackage{url}
+\usepackage{epsfig}
+\usepackage[bookmarks=false, colorlinks=true, linkcolor=blue,
+            citecolor=blue]{hyperref}
+\usepackage{color}
+
+
+\renewcommand\baselinestretch{1.15}
+\setlength{\textwidth}{15.5cm} \setlength{\oddsidemargin}{0.5cm}
+\setlength{\evensidemargin}{0.50cm} \setlength{\topmargin}{-1.0cm}
+\setlength{\textheight}{23.cm} \setlength{\parindent}{0.0cm}
+
+\def\sfc#1{\textcolor{red}{ \textbf{... #1 ...} } }          % comment
+\def\sfq#1{\textcolor{red}{ \textbf{(?? #1 ??)} }}           % question
+\def\sfi#1{\textcolor{red}{ $\bullet\;$ \textit{#1}}}        % insertion
+
+\def\ket#1{ $    \left\vert   #1 \right\rangle $ }
+\def\ketm#1{     \left\vert   #1 \right\rangle   }
+\def\bra#1{ $    \left\langle #1 \right\vert   $ }
+\def\bram#1{     \left\langle #1 \right\vert     }
+\def\spr#1#2{ $  \left\langle #1 \left\vert \right. #2 \right\rangle $ }
+\def\sprm#1#2{   \left\langle #1 \left\vert \right. #2 \right\rangle   }
+\def\me#1#2#3{ $ \left\langle #1 \left\vert #2 \right\vert #3 \right\rangle $ }
+\def\mem#1#2#3{  \left\langle #1 \left\vert #2 \right\vert #3 \right\rangle   }
+\def\redme#1#2#3{ $ \left\langle #1 \left\Vert
+                  #2 \right\Vert #3 \right\rangle $ }
+\def\redmem#1#2#3{  \left\langle #1 \left\Vert
+                  #2 \right\Vert #3 \right\rangle   }
+%
+\def\spinup{   $ \left( \begin{array}{c} 1 \\ 0 \end{array} \right) $ }
+\def\spindown{ $ \left( \begin{array}{c} 0 \\ 1 \end{array} \right) $ }
+\def\Itwo{   $ \left( \begin{array}{c c} 1 & 0 \\ 0 & 1 \end{array} \right) $ }
+\def\Itwom{    \left( \begin{array}{c c} 1 & 0 \\ 0 & 1 \end{array} \right)   }
+\def\sigmax{ $ \left( \begin{array}{c c} 0 & 1 \\ 1 & 0 \end{array} \right) $ }
+\def\sigmaxm{  \left( \begin{array}{c c} 0 & 1 \\ 1 & 0 \end{array} \right)   }
+\def\sigmaz{ $ \left( \begin{array}{c c} 1 & 0 \\ 0 &-1 \end{array} \right) $ }
+\def\sigmazm{  \left( \begin{array}{c c} 1 & 0 \\ 0 &-1 \end{array} \right)   }
+%
+\def\proc#1{  {\bf #1} }
+\def\subproc#1{  { #1} }
+\def\procref#1{{\sf #1}}
+\def\procvar#1{\texttt{ #1}}
+\def\procargop{ {\small\bf Argument options:} }
+\def\procadd{ {\small\bf Additional information:} }
+\def\procout{ {\small\bf Output:} }
+\def\procsee{ {\small\bf See also:} }
+\def\procprop#1{ {\small\bf #1} }
+\def\procskip{\medskip}
+\def\procsection#1{\vspace*{0.1cm} 
+                   \textcolor{red}{\small\underline{\textbf{#1}}} }
+\def\procsectionref#1{\textcolor{red}{\small\textbf{#1}} }
+\def\proccommand#1{\textcolor{blue}{#1}}
+\def\map{{\small\bf *}\,}
+\def\mleaf{ {\small\bf $ \spadesuit $ } }
+
+\def\half{    \frac{1}{2}  }
+\def\xhalf#1{ \frac{#1}{2} }
+%
+\def\etal{\textit{et al.}}
+\def\elong{\sc }
+%
+
+
+\begin{document}
+
+
+\title{\textbf{``Twisted Light''} \\[0.1cm]
+       Your topic here, please}
+
+\author{Your name          \\
+        \\
+	Physikalisch-Astronomische Fakult\"a{}t \\[0.1cm]
+        Universit\"a{}t Jena \\[0.1cm]
+        \\
+        }
+
+
+\maketitle
+
+\begin{abstract}
+Here, please, briefly summarize your work and conclusions.
+\end{abstract}
+
+\bigskip
+\bigskip
+
+
+%
+%
+%
+%
+%
+\section{Introduction}
+
+...
+
+
+%
+%
+%
+%
+%
+\begin{figure}[b]
+\begin{center}
+  \epsfig{file=b14.02-Spiral-phase-plate.eps, height=4cm, angle=0}
+  \caption{Generation of vortex beams by means of spiral phase plates.}
+  \label{vortex-generation}
+\end{center}
+\end{figure}
+
+%
+%
+%
+%
+%
+\section{Theoretical background}
+
+...
+
+
+%
+%
+%
+%
+\subsection{Generation of vortrex beams}
+
+%
+\begin{equation}
+   \ketm{\psi} \,=\,  a \ketm{0} + b \ketm{1} \,\equiv\,
+   a \,       \left( {\begin{array}{*{20}c} {1 } \\ {0 } \end{array} } \right)
+   \,+\, b \, \left( {\begin{array}{*{20}c} {0 } \\ {1 } \end{array} } \right)
+   \,=\,
+   \left( {\begin{array}{*{20}c}
+   {a }  \\
+   {b }  \\
+   \end{array} } \right) \, ,
+\end{equation}
+%
+in which the state $\ketm{\psi}$ ...
+
+
+%
+%
+%
+%
+%
+%
+\begin{table}
+\begin{small}
+\caption{\rm Comparison of different vortex beams.}
+\label{vortex-beams}
+\begin{center}
+\begin{tabular}{p{6.7cm} p{7.8cm}}
+   \\[-0.4cm] \hline \hline \\[-0.4cm]
+   Type  & Short characterization
+   \\[0.1cm]  \hline  \\[-0.25cm]
+   Bessel beams$^1$ & Field of electromagnetic, acoustic or even gravitational radiation whose amplitude is described 
+                      by a Bessel function of the first kind (Wikipedia, 2014). \\[0.1cm]
+   ...              & ...  \\[0.1cm]
+   \hline \hline
+\end{tabular}
+\end{center}
+\vspace{0.2cm}
+\end{small}
+\end{table}
+\footnotetext[1]{A complete list of all ... }
+
+
+%
+%
+%
+%
+%
+\section{Examples}  
+
+
+%
+%
+%
+%
+%
+\section{...}  
+
+
+%
+%
+%
+%
+%
+\section{Summary and outlook}  \label{sec_outlook}
+
+A short overview is given ...
+
+
+%
+%
+%
+%
+%
+\begin{thebibliography}{99}
+
+\bibitem{Andrews/Babiker:2012}
+   D.~L.~Andrews und M.~Babiker (Eds.), \textit{The Angular Momentum of Light} (Cambridge University Press, 2012).
+
+\bibitem{Grover:97}
+   L.~K.~Grover, Phys.\ Rev.\ Lett.\ 79 (1997) 325.
+
+\bibitem{Redfern:96}
+   D.~Redfern, \textit{The Maple Handbook} (Springer, New York, 1996).
+
+\end{thebibliography}
+
+
+
+
+
+
+
+
+\newpage
+%
+%
+%
+%
+%
+
+\appendix
+
+\section*{Appendix A: \hspace{0.02cm} Derivation of ...}
+
+
+
+\end{document}
