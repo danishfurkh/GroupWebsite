@@ -9,7 +9,7 @@ bundle update
 jekyll build
 
 # Uncomment the following lines if you need to clear the screen
- clear
+# clear
 
 # Uncomment the following lines if you want to prompt for username and upload files using scp
  echo "Enter username and password to upload files to Website"
