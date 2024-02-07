@@ -18,6 +18,7 @@ else
         sudo gem update --system
         sudo gem install jekyll bundler
         sudo apt-get install build-essential ruby-dev
+        sudo apt-get install ruby-dev build-essential
         echo "Please run the script again"
         error_occurred=true
     fi
