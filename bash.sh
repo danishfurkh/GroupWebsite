@@ -7,6 +7,7 @@ then
     sudo apt-get install ruby-full
     # On macOS with Homebrew, you might use: brew install ruby
     # Adjust the installation command according to your OS or exit the script
+    echo "Please run the script again"
     exit 1
 fi
 
@@ -17,6 +18,8 @@ then
     sudo gem update --system
     sudo gem install jekyll bundler
     sudo apt-get install build-essential ruby-dev
+    echo "Please run the script again"
+    exit 1
 fi
 
 # Echo commands
