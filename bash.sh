@@ -13,8 +13,7 @@ fi
 # Check for Jekyll
 if ! gem list jekyll -i > /dev/null 2>&1
 then
-    sudo apt-get install rubygems
-    gem install jekyll bundler
+    sudo gem install jekyll bundler
 fi
 
 # Echo commands
