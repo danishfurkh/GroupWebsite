@@ -13,8 +13,8 @@ fi
 # Check for Jekyll
 if ! gem list jekyll -i > /dev/null 2>&1
 then
+    echo "Ruby could not be found. Installing Ruby..."
     sudo gem update --system
-    sudo gem install bundler
     sudo gem install jekyll bundler
 fi
 
@@ -23,8 +23,8 @@ echo "Running Ruby code..."
 ruby bib_to_json.rb
 
 echo "Running Jekyll..."
-bundle update
-jekyll build
+sudo bundle update
+sudo jekyll build
 
 # Uncomment the following lines if you need to clear the screen
 #clear
