@@ -20,6 +20,7 @@ fi
 
 # Echo commands
 echo "Running Ruby code..."
+sudo gem install bibtex-ruby
 ruby bib_to_json.rb
 
 echo "Running Jekyll..."
