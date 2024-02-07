@@ -20,6 +20,7 @@ else
         sudo apt-get install build-essential ruby-dev
         sudo apt-get install ruby-dev build-essential
         sudo apt-get install protobuf-compiler
+        sudo gem install google-protobuf
         echo "Please run the script again"
         error_occurred=true
     fi
