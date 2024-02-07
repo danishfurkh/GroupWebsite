@@ -13,10 +13,7 @@ fi
 # Check for Jekyll
 if ! gem list jekyll -i > /dev/null 2>&1
 then
-    echo "Jekyll could not be found. Installing Jekyll..."
-    echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-    echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-    source ~/.bashrc
+    sudo apt-get install rubygems
     gem install jekyll bundler
 fi
 
