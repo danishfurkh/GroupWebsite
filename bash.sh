@@ -19,6 +19,7 @@ else
         sudo gem install jekyll bundler
         sudo apt-get install build-essential ruby-dev
         sudo apt-get install ruby-dev build-essential
+        sudo bundle update
         sudo apt-get install protobuf-compiler
         sudo gem install google-protobuf
         echo "Please run the script again"
@@ -36,13 +37,6 @@ if [ "$error_occurred" = false ]; then
     
     if [ "$error_occurred" = false ]; then
         if ! ruby bib_to_json.rb; then
-            error_occurred=true
-        fi
-    fi
-    
-    if [ "$error_occurred" = false ]; then
-        echo "Running Jekyll bundle update..."
-        if ! sudo bundle update; then
             error_occurred=true
         fi
     fi
