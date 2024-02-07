@@ -14,9 +14,6 @@ fi
 if ! gem list jekyll -i > /dev/null 2>&1
 then
     echo "Jekyll could not be found. Installing Jekyll..."
-    export GEM_HOME=~/.ruby/ >> ~/.bashrc
-    export PATH="$PATH:~/.ruby/bin" >> ~/.bashrc
-    source ~/.bashrc
     gem install jekyll bundler
 fi
 
