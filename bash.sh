@@ -13,6 +13,8 @@ fi
 # Check for Jekyll
 if ! gem list jekyll -i > /dev/null 2>&1
 then
+    sudo gem update --system
+    sudo gem install bundler
     sudo gem install jekyll bundler
 fi
 
