@@ -16,6 +16,7 @@ then
     echo "Ruby could not be found. Installing Ruby..."
     sudo gem update --system
     sudo gem install jekyll bundler
+    sudo apt-get install build-essential ruby-dev
 fi
 
 # Echo commands
