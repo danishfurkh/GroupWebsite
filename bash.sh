@@ -40,13 +40,14 @@ if [ "$error_occurred" = false ]; then
     fi
     
     if [ "$error_occurred" = false ]; then
-        echo "Running Jekyll..."
+        echo "Running Jekyll bundle update..."
         if ! sudo bundle update; then
             error_occurred=true
         fi
     fi
     
     if [ "$error_occurred" = false ]; then
+        echo "Running Jekyll build..."
         if ! sudo jekyll build; then
             error_occurred=true
         fi
