@@ -1,21 +1,27 @@
-Group Website Template
-Overview: This template is crafted with Jekyll, incorporating Bootstrap and Bootswatch to offer a straightforward yet customizable solution for academic research groups looking to establish an online presence. Designed for ease of adaptation and maintenance, it provides a solid foundation for showcasing your group's work.
+# Academic Group Website Template
 
-How to Use:
+## Overview
+This template, built with Jekyll and enhanced with Bootstrap and Bootswatch, is designed to simplify the creation of websites for academic research groups. It is easily adaptable and maintainable, providing a streamlined approach to showcasing your group's projects and achievements.
 
-Maintenance & Updates: Leveraging GitHub for straightforward updates, the template features markdown pages and Liquid for dynamic content. Data for publications, news, and team members are stored as .yml files in the _data folder, simplifying the update process.
-Getting Set Up: Familiarize yourself with Jekyll and GitHub for hosting. Fork the repository to create your version, renaming it to match your GitHub username and setting up a gh-pages branch for publishing.
-Local vs. GitHub Editing: Start editing directly on GitHub for convenience or set up Jekyll locally for more comprehensive changes. Consider using the GitHub desktop app for syncing changes.
-Customization Steps:
+## How to Use
+### Maintenance & Updates
+Utilize GitHub for hassle-free updates. The template uses markdown for pages and Liquid for dynamic elements. Key information like publications, news, and team profiles is stored in `.yml` format within the `_data` folder, simplifying the process of keeping your site current.
 
-Update Data: Modify .yml files within the _data folder (news, publications, team) to reflect your content.
-Modify Pages: Adjust the content in the _pages folder and other layout elements like the homepage title, footer, and header as needed.
-Adjust Style & Theme: Feel free to alter the style by updating or replacing Bootstrap/Bootswatch files in the _sass directory. For minor tweaks, the main.sass file in the CSS folder is your go-to.
-Copyright & Credits:
+### Getting Set Up
+Begin by familiarizing yourself with [Jekyll](https://jekyllrb.com/) and GitHub, the platform hosting your site. To start, fork the [GroupWebsite repository](https://github.com/danishfurkh/GroupWebsite), rename it to your GitHub username, and set up a `gh-pages` branch for your site's publication.
 
-Use this template freely without the need for attribution, though any acknowledgment is appreciated.
-The template is available under the MIT License, promoting open and flexible use.
-Feedback & Contributions:
+### Local vs. GitHub Editing
+You can choose to edit directly on GitHub for ease or locally with Jekyll for more extensive customization. The GitHub desktop app is recommended for synchronizing your local changes with your GitHub repository.
 
-Your input and modifications are welcome! Sharing your site's link for potential inclusion in a public list would be valued.
-This concise guide is aimed at facilitating your journey from template adoption to creating a unique site for your academic research group. For a deep dive into customization and further assistance, please refer to the original GroupWebsite repository.
+## Customization Steps
+1. **Update Data**: Edit the `.yml` files in the `_data` folder with your group's news, publications, and team information.
+2. **Modify Pages**: Adjust content in the `_pages` folder and update layout elements like the homepage title, footer, and header as necessary.
+3. **Style & Theme**: Customize the style by modifying or replacing the Bootstrap/Bootswatch files in the `_sass` directory. Use the `main.sass` file in the CSS folder for minor tweaks.
+
+## Copyright & Credits
+This template is free to use without mandatory attribution (though appreciated). It is released under the MIT License, encouraging broad and flexible application.
+
+## Feedback & Contributions
+We welcome your feedback and contributions! Feel free to share a link to your adapted site for potential inclusion in a showcase.
+
+This guide aims to facilitate the adaptation of the template to fit the unique needs of your academic research group. For detailed customization instructions and support, refer to the [GroupWebsite repository](https://github.com/danishfurkh/GroupWebsite).
