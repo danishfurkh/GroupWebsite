@@ -1,4 +1,4 @@
-# Group Website Template
+# Group Website
 
 ## Overview
 This template, built with Jekyll and enhanced with Bootstrap and Bootswatch, is designed to simplify the creation of websites for academic research groups. It is easily adaptable and maintainable, providing a streamlined approach to showcasing your group's projects and achievements.
