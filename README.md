@@ -18,6 +18,23 @@ You can choose to edit directly on GitHub for ease or locally with Jekyll for mo
 2. **Modify Pages**: Adjust content in the `_pages` folder and update layout elements like the homepage title, footer, and header as necessary.
 3. **Style & Theme**: Customize the style by modifying or replacing the Bootstrap/Bootswatch files in the `_sass` directory. Use the `main.sass` file in the CSS folder for minor tweaks.
 
+## Required Packages
+Please run the following commands before installing for the first time
+### Python
+sudo apt install python
+pip install requests,bs4,json,platform
+### Ruby
+sudo apt-get install ruby-full
+sudo gem update --system
+### Jekyll
+sudo gem install jekyll bundler
+sudo apt-get install build-essential ruby-dev
+sudo apt-get install ruby-dev build-essential
+sudo bundle update
+sudo apt-get install protobuf-compiler
+sudo gem install google-protobuf
+
+
 ## Copyright & Credits
 This template is free to use without mandatory attribution (though appreciated). It is released under the MIT License, encouraging broad and flexible application.
 
