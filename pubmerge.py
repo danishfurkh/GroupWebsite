@@ -22,7 +22,7 @@ with open('publications.json', 'r', encoding='utf-8') as new_file:
 merged_publications = merge_publications(old_data, new_data)
 
 # Save the updated data back to the old JSON file
-with open('old_publications.json', 'w') as old_file:
+with open('_data/OldPubs.json', 'w') as old_file:
     json.dump(merged_publications, old_file, indent=4)
 
 print("Data merged and saved successfully.")
