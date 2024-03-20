@@ -140,12 +140,18 @@ layout: default
 
 <div id="publications-container">
   <ol>
-    {% if publi.doi %}
-      <p>DOI: <a href="https://doi.org/{{ publi.doi }}">{{ publi.doi }}</a></p>
-    {% endif %}
-    {% if publi.link %}
-      <p>Link: <a href="{{ publi.link }}">{{ publi.link }}</a></p>
-    {% endif %}
+    {% for publi in site.data.OldPubs %}
+      <li class="publication" data-year="{{ publi.year }}" style="display: none;">
+        <h3>{{ publi.title }}</h3>
+        <p><em>{{ publi.authors }}</em></p>
+        {% if publi.doi %}
+			<p>DOI: <a href="https://doi.org/{{ publi.doi }}">{{ publi.doi }}</a></p>
+		{% endif %}
+		{% if publi.link %}
+			<p>Link: <a href="{{ publi.link }}">{{ publi.link }}</a></p>
+		{% endif %}
+      </li>
+    {% endfor %}
   </ol>
 </div>
 
