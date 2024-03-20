@@ -22,16 +22,23 @@ You can choose to edit directly on GitHub for ease or locally with Jekyll for mo
 Please run the following commands before installing for the first time
 ### Python
 sudo apt install python
+
 pip install requests,bs4,json,platform
 ### Ruby
 sudo apt-get install ruby-full
+
 sudo gem update --system
 ### Jekyll
 sudo gem install jekyll bundler
+
 sudo apt-get install build-essential ruby-dev
+
 sudo apt-get install ruby-dev build-essential
+
 sudo bundle update
+
 sudo apt-get install protobuf-compiler
+
 sudo gem install google-protobuf
 
 
