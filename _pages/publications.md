@@ -18,7 +18,7 @@ permalink: /publications/
       <li class="publi">
         <h3>{{ publi.title }}</h3>
         <p><em>{{ publi.authors }}</em></p>
-        <p><a href="{{ publi.doi }}">Download</a></p>
+        <p><a href="{{ publi.link }}">Download</a></p>
       </li>
     {% endfor %}
   </ol>
