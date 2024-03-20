@@ -51,6 +51,10 @@ if [ "$error_occurred" = false ]; then
     # Only clear the screen and update the website if there have been no errors
     if [ "$error_occurred" = false ]; then
         clear
+        echo Looking for New Publications
+        python test.py
+        echo Adding New Publications
+        python pubmerge.py
         echo "Enter username and password to upload files to Website"
         read -p "Enter your username: " username
         scp -r _site/* "$username"@webserv3.rz.uni-jena.de:web/
