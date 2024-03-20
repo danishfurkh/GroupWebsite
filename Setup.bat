@@ -1,7 +1,11 @@
 @echo off
 
-echo Running Ruby code...
-ruby bib_to_json.rb
+:: echo Running Ruby code...
+:: ruby bib_to_json.rb
+echo Looking for New Publications
+python test.py
+echo Adding New Publications
+python pubmerge.py
 
 echo Running Jekyll...
 call bundle update
