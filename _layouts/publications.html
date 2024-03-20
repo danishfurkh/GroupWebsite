@@ -142,10 +142,9 @@ layout: default
   <ol>
     {% if publi.doi %}
       <p>DOI: <a href="https://doi.org/{{ publi.doi }}">{{ publi.doi }}</a></p>
-    {% elif publi.link %}
+    {% endif %}
+    {% if publi.link %}
       <p>Link: <a href="{{ publi.link }}">{{ publi.link }}</a></p>
-    {% else %}
-      <p>No DOI or link available</p>
     {% endif %}
   </ol>
 </div>
