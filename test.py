@@ -80,9 +80,9 @@ if response.status_code == 200:
         publication_data.append(publication_info)
 
     # Store the publication data in a JSON file.
-    with open('NewPubs.json', 'w', encoding='utf-8') as file:
+    with open('publications.json', 'w', encoding='utf-8') as file:
         json.dump(publication_data, file, ensure_ascii=False, indent=4)
 
-    print('Publication data scraped and saved to NewPubs.json')
+    print('Publication data scraped and saved to publications.json')
 else:
     print('Failed to retrieve data. Check your URL or internet connection.')
