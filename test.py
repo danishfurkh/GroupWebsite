@@ -74,7 +74,7 @@ if response.status_code == 200:
             'title': title,
             'authors': authors,
             'year': publication_year,
-            'doi': doi,  # Include the DOI in the publication info
+            'link': doi,  # Include the DOI in the publication info
             # Add more fields as needed
         }
         publication_data.append(publication_info)
