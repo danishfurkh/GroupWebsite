@@ -120,7 +120,7 @@ layout: default
     var currentMonth = currentDate.getMonth() + 1;
     var isSummerSemester = currentMonth >= 4 && currentMonth <= 9;
     var currentSemester = isSummerSemester ? 'Summer' : 'Winter';
-
+	var currentDay = currentDate.getDate();
     var presentedSeminarList = "";
     var upcomingSeminarList = "";
     var todaySeminarList = "";
@@ -130,42 +130,41 @@ layout: default
       var seminarYear = seminarDate.getFullYear();
       var seminarMonth = seminarDate.getMonth() + 1;
       var seminarSemester = seminarMonth >= 4 && seminarMonth <= 9 ? 'Summer' : 'Winter';
-
-      if (seminarSemester === currentSemester && seminarMonth > 9 && seminarYear === currentYear-1 || seminarYear === currentYear) {
-        if (seminarDate.toLocaleDateString() === currentDate.toLocaleDateString()) {
+	  var seminarDay = seminarDate.getDate();
+	  
+      if (seminarSemester === currentSemester && (seminarMonth > 9 && seminarYear === currentYear-1) || (seminarMonth < 4 && seminarYear === currentYear)) {
+         if (seminarDate.toLocaleDateString() === currentDate.toLocaleDateString()) {
           var listItem = "<li><strong>" + seminar.date + "</strong><br>";
           listItem += "Speaker: " + seminar.speaker + "<br>";
           listItem += "Title: " + seminar.title + "<br>";
           todaySeminarList += listItem;
-        } else if (seminarDate < currentDate) {
+        } if (seminarYear < currentYear || (seminarYear === currentYear && seminarMonth  < currentMonth) || (seminarYear === currentYear && seminarMonth === currentMonth && seminarDay < currentDay)) {
           var listItem = "<li><strong>" + seminar.date + "</strong><br>";
           listItem += "Speaker: " + seminar.speaker + "<br>";
           listItem += "Title: " + seminar.title + "<br>";
           presentedSeminarList += listItem;
-        } else {
-          var listItem = "<li><strong>" + seminar.date + "</strong><br>";
-          listItem += "Speaker: " + seminar.speaker + "<br>";
-          listItem += "Title: " + seminar.title + "<br>";
-          upcomingSeminarList += listItem;
-        }
+        } 
       }
-	  else if (seminarSemester === currentSemester && seminarYear === currentYear) {
+	  if (seminarSemester === currentSemester && seminarYear === currentYear && seminarMonth > 3) {
 		if (seminarDate.toLocaleDateString() === currentDate.toLocaleDateString()) {
           var listItem = "<li><strong>" + seminar.date + "</strong><br>";
           listItem += "Speaker: " + seminar.speaker + "<br>";
           listItem += "Title: " + seminar.title + "<br>";
           todaySeminarList += listItem;
-        } else if (seminarDate < currentDate) {
+        } if (seminarYear < currentYear || (seminarYear === currentYear && seminarMonth  < currentMonth) || (seminarYear === currentYear && seminarMonth === currentMonth && seminarDay < currentDay)) {
+
           var listItem = "<li><strong>" + seminar.date + "</strong><br>";
           listItem += "Speaker: " + seminar.speaker + "<br>";
           listItem += "Title: " + seminar.title + "<br>";
           presentedSeminarList += listItem;
-        } else {
+        }
+	  }
+	  if (seminarYear > currentYear || (seminarYear === currentYear && seminarMonth  > currentMonth) || (seminarYear === currentYear && seminarMonth === currentMonth && seminarDay > currentDay)) {
+
           var listItem = "<li><strong>" + seminar.date + "</strong><br>";
           listItem += "Speaker: " + seminar.speaker + "<br>";
           upcomingSeminarList += listItem;
         }
-	  }
     });
 
     if (todaySeminarList === "") {
