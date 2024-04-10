@@ -139,7 +139,7 @@ layout: default
           listItem += "Title: " + seminar.title + "<br>";
           todaySeminarList += listItem;
         } else if (seminarDate < currentDate && seminarSemester === currentSemester) {
-          var listItem = "<li><strong>" + seminarSemester + "</strong><br>";
+          var listItem = "<li><strong>" + seminar.date + "</strong><br>";
           listItem += "Speaker: " + seminar.speaker + "<br>";
           listItem += "Title: " + seminar.title + "<br>";
           presentedSeminarList += listItem;
