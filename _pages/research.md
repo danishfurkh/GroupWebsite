@@ -20,7 +20,7 @@ permalink: /research/
            <em>The authors unravel the complexities of nonlinear interference phenomena in laser-atom interaction, demonstrating the role of an electron as a carrier of the obscured fundamental frequencies inherent in the laser pulse. Through theoretical analysis, they identify how interactions between electrons and the concealed fundamental frequencies within intense laser pulses craft distinctive interference patterns and confinement effects in the momentum landscape, offering profound insights into the quantum dynamics underpinning ionization processes.</em>
     </td>
     <td col width="20"></td> 
-    <td><img src="{{ site.url }}{{ site.baseurl }}/images/research/research_05.jpg" height="300" border="0">
+    <td><img src="{{ site.url }}{{ site.baseurl }}/images/research/research_05.png" height="300" border="0">
     </td>
   </tr>
 </table>
