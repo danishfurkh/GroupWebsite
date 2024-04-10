@@ -9,6 +9,24 @@ permalink: /research/
 <BR>
 
 # Research
+
+<BR>
+
+<table border>
+  <tr>
+    <td align="justify"><b>Nonlinear interference and electron dynamics: Probing photoelectron momentum distributions in strong-field ionization</b><BR><BR>
+          Danish Furekh Dar and Stephan Fritzsche<BR><BR>
+           <a href="http://doi.org/10.3847/1538-4357/ab5118" target="_top">Phys. Rev. A <b>109</b> (2024) L041101</a><BR><BR>
+           <em>The authors unravel the complexities of nonlinear interference phenomena in laser-atom interaction, demonstrating the role of an electron as a carrier of the obscured fundamental frequencies inherent in the laser pulse. Through theoretical analysis, they identify how interactions between electrons and the concealed fundamental frequencies within intense laser pulses craft distinctive interference patterns and confinement effects in the momentum landscape, offering profound insights into the quantum dynamics underpinning ionization processes.</em>
+    </td>
+    <td col width="20"></td> 
+    <td><img src="{{ site.url }}{{ site.baseurl }}/images/research/research_05.jpg" height="300" border="0">
+    </td>
+  </tr>
+</table>
+
+<BR>
+
  
 <BR>
 
