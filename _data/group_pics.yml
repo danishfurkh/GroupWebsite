@@ -1,0 +1,70 @@
+- path: group_photo_2023.jpg
+  captions: 
+     - From left to right 
+     - Top - Danish Furekh Dar, Zhongwen Wu, Akshay Sunil Bhadaje, Kefei Zou  
+     - Mid - Andrey Bondarev, Anna Maiorova, Fang Liu, Stephan Fritzsche, Shreyas Ramakrishna 
+     - Bottom - Richard Bernecker, Joshua Daldorf, Liguang Jiao, Giorgio Visentin, Yuancheng Wang, Baghdasar Baghdasaryan, Romain Soguel
+
+  year: 2023
+
+- path: group_photo_2022.jpg
+  captions:
+    - From left to right
+    - Joseph Andrews, Danish Furekh Dar, Andrey Bondarev, Romain Soguel, Stephan Fritzsche, Baghdasar Baghdasaryan, Fang Liu, Birger Böning, Darvin Wanisch, Björn Minneker, Zhongwen Wu, Shahban Ali, Shreyas Ramakrishna
+  year: 2022
+
+- path: group_photo_2021.jpg
+  captions:
+    - From left to right
+    - Top - Stephan Fritzsche, Darvin Wanisch, Valeriia Kosheleva, Fang Liu
+    - Bottom - Richard Bernecker, Shahram Panahiyan, Jiri Hofbrucker, Romain Soguel, Björn Minneke
+  year: 2021
+
+- path: group_photo_2020.jpg
+  captions:
+    - From left to right
+    - Stephan Fritzsche, Birger Böning, Jiri Hofbrucker, Baghdasar Baghdasaryan, Darvin Wanisch, Thorben Niemeyer, Björn Minnecker, Shahram Panahiyan, Valeriia Kosheleva, Andrey Volotka, Jonathan Preim, Jiahao Fan
+  year: 2020
+
+- path: group_photo_2019.jpg
+  captions:
+    - From left to right
+    - Stephan Fritzsche, Jiri Hofbrucker, Moazzam Bilal, Willi Paufler, Jiahao Fan, Randolf Beerwerth (upper row)
+    - Valeriia Kosheleva, Sebastian Stock, Baghdasar Baghdasaryan, Birger Böning, Dmitrii Samoilenko, Andrey Volotka (lower row)
+  year: 2019
+
+- path: group_photo_2018.jpg
+  captions:
+    - From left to right
+    - Birger Böning, Moazzam Bilal, Stephan Fritzsche, Shahram Panahiyan, Sebastian Stock (upper row)
+    - Randolf Beerwerth, Jiri Hofbrucker, Anton Peshkov, Willi Paufler, Andrey Volotka (lower row)
+  year: 2018
+
+- path: group_photo_2017.jpg
+  captions:
+    - From left to right
+    - Anton Peshkov, Sebastian Stock, Jiri Hofbrucker, Biplab Goswami, Shahram Panahiyan, Andrey Volotka (lower row),
+    - Randolf Beerwerth, Moazzam Bilal, Willi Paufler, Birger Böning, Yasir Iqbal, Stephan Fritzsche, Zhongwen Wu (upper row)
+  year: 2017
+
+- path: group_photo_2016.jpg
+  captions:
+    - From left to right
+    - Dong Wu, Jacinda Ginges, Zhongwen Wu, Biplab Goswami, Andrey Volotka, Sebastian Stock (lower row),
+    - Daniel Seipt, Jiri Hofbrucker, Anton Peshkov, Randolf Beerwerth, Stephan Fritzsche, Moazzam Bilal (upper row)
+  year: 2016
+
+- path: group_photo_2015.jpg
+  captions:
+    - From left to right
+    - Andrey Volotka, Vladimir Yerokhin, Valery Serbo, Gajendra Singh, Zhongwen Wu, Sebastian Stock (lower row),
+    - Erik Abraham, Randolf Beerwerth, Stephan Fritzsche, Robert Müller (middle row), Daniel Seipt, Anton Peshkov, Andrey Surzhykov (upper row)
+  year: 2015
+
+- path: group_photo_2014.jpg
+  captions:
+    - From left to right
+    - Johann Jakob Abel, Robert Müller, Daniel Seipt, Andrey Surzhykov, Thorsten Jahrsetz, Vladimir Yerokhin, Zhongwen Wu,
+    - Wilko Middens, Tobias Bucher, Sebastian Stock, Erik Abraham, Stefan Tietze, Hannah Marie Scholz-Marggraf, Stephan Fritzsche
+  year: 2014
+
