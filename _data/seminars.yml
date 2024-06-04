@@ -26,28 +26,33 @@
 
 - date: 2024-06-04
   speaker: Anna Maiorova
-  title: NaN
+  title: Parity non-convervation effects in atomic physics
   semester: Summer
 
 - date: 2024-06-11
-  speaker: Stephan Fritzsche 
+  speaker: Nishita Manohar Hosea 
   title: NaN
   semester: Summer
 
 - date: 2024-06-18
-  speaker: Fang Liu
+  speaker: Houke Huang
   title: NaN
   semester: Summer
 
 - date: 2024-06-25
-  speaker: Andrey Bondarev
+  speaker: Shreyas Ramakrishna
   title: NaN
   semester: Summer
 
 - date: 2024-07-02
-  speaker: Shreyas Ramakrishna 
+  speaker: Andrey Bondarev
   title: NaN
   semester: Summer 
+  
+- date: 2024-07-09
+  speaker: Stephan Fritzsche
+  title: NaN
+  semester: Summer
   
 #Winter Semester 2023-2024
 - date: 2023-10-10
