@@ -1,9 +1,45 @@
 [
     {
-        "title": "Nonlinear interference and electron dynamics: Probing photoelectron momentum distributions in strong-field ionization",
-        "authors": "DF Dar, S Fritzsche",
+        "title": "Merits of atomic cascade computations",
+        "authors": "S Fritzsche, AK Sahoo, L Sharma, ZW Wu, S Schippers",
         "year": "2024",
-        "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.L041101"
+        "link": "https://link.springer.com/article/10.1140/epjd/s10053-024-00865-z"
+    },
+    {
+        "title": "Angle-resolved linear polarization of characteristic lines following innershell  photoionization of atoms",
+        "authors": "ZW Wu, W Liu, S Fritzsche",
+        "year": "2024",
+        "link": "https://link.springer.com/article/10.1140/epjd/s10053-024-00859-x"
+    },
+    {
+        "title": "Inner-shell ionization cross sections of atoms by positron impact",
+        "authors": "YC Wang, J Ma, LG Jiao, S Fritzsche",
+        "year": "2024",
+        "link": "https://iopscience.iop.org/article/10.1088/1572-9494/ad3907/meta"
+    },
+    {
+        "title": "Revisiting the energy spectrum of the radial screened Coulomb potential",
+        "authors": "L Xu, FM Fern\u00e1ndez, LG Jiao, HE Montgomery, YK Ho, S Fritzsche",
+        "year": "2024",
+        "link": "https://iopscience.iop.org/article/10.1088/1402-4896/ad42e5/meta"
+    },
+    {
+        "title": "Laser Resonance Chromatography of Th in He: an ab initio investigation",
+        "authors": "G Visentin, A Borschevsky, LA Viehland, S Fritzsche, M Laatiaoui",
+        "year": "2024",
+        "link": "https://arxiv.org/abs/2405.02416"
+    },
+    {
+        "title": "p-Wave resonances in the exponential cosine screened Coulomb potential",
+        "authors": "Y Wang, LG Jiao, A Liu, YK Ho, S Fritzsche",
+        "year": "2024",
+        "link": "https://iopscience.iop.org/article/10.1088/1572-9494/ad432d/meta"
+    },
+    {
+        "title": "Relativistic R-matrix calculations for the photoionization of W61+ ions",
+        "authors": "ZW Wu, JQ Wang, Y Li, YH An, S Fritzsche",
+        "year": "2024",
+        "link": "https://pubs.aip.org/aip/pop/article/31/4/043301/3283102"
     },
     {
         "title": "Bound state energies and critical bound region in the semiclassical dense hydrogen plasmas",
@@ -12,10 +48,10 @@
         "link": "https://pubs.aip.org/aip/pop/article/31/4/042110/3282210"
     },
     {
-        "title": "Inner-shell ionization cross sections of atoms by positron impact",
-        "authors": "Y Wang, J Ma, LG Jiao, S Fritzsche",
+        "title": "Nonlinear interference and electron dynamics: Probing photoelectron momentum distributions in strong-field ionization",
+        "authors": "DF Dar, S Fritzsche",
         "year": "2024",
-        "link": "https://iopscience.iop.org/article/10.1088/1572-9494/ad3907/meta"
+        "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.L041101"
     },
     {
         "title": "Coulomb excitation of hydrogen atoms by vortex ion beams",
@@ -24,16 +60,16 @@
         "link": "https://arxiv.org/abs/2403.17521"
     },
     {
-        "title": "Competition of the Breit interaction in angular anisotropy of Auger electrons",
-        "authors": "ZW Wu, Y Li, S Fritzsche",
-        "year": "2024",
-        "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.032817"
-    },
-    {
         "title": "Exploring Valence Electron Dynamics of Xenon through Laser-Induced Electron Diffraction",
         "authors": "F Liu, S Skruszewicz, J Sp\u00e4the, Y Zhang, S Hell, B Ying, GG Paulus, ...",
         "year": "2024",
         "link": "https://arxiv.org/abs/2403.10473"
+    },
+    {
+        "title": "Competition of the Breit interaction in angular anisotropy of Auger electrons",
+        "authors": "ZW Wu, Y Li, S Fritzsche",
+        "year": "2024",
+        "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.032817"
     },
     {
         "title": "Atomic photoexcitation as a tool for probing purity of twisted light modes",
@@ -42,10 +78,10 @@
         "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.033103"
     },
     {
-        "title": "Spectral properties of transverse Laguerre-Gauss modes in parametric down-conversion",
-        "authors": "C Sevilla-Guti\u00e9rrez, VR Kaipalath, B Baghdasaryan, M Gr\u00e4fe, S Fritzsche, ...",
+        "title": "Generalized binary-encounter-Bethe model for electron impact ionization of atoms",
+        "authors": "YC Wang, LG Jiao, S Fritzsche",
         "year": "2024",
-        "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.023534"
+        "link": "https://iopscience.iop.org/article/10.1088/1361-6455/ad285e/meta"
     },
     {
         "title": "Transport property predictions for laser resonance chromatography on Rf (Z = 104)",
@@ -60,6 +96,12 @@
         "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.022804"
     },
     {
+        "title": "Spectral properties of transverse Laguerre-Gauss modes in parametric down-conversion",
+        "authors": "C Sevilla-Guti\u00e9rrez, VR Kaipalath, B Baghdasaryan, M Gr\u00e4fe, S Fritzsche, ...",
+        "year": "2024",
+        "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.023534"
+    },
+    {
         "title": "Rapid Access to Empirical Impact Ionization Cross Sections for Atoms and Ions across the Periodic Table",
         "authors": "S Fritzsche, L Jiao, G Visentin",
         "year": "2024",
@@ -70,6 +112,12 @@
         "authors": "AI Bondarev, M Tamanis, R Ferber, G Ba\u015far, S Kr\u00f6ger, MG Kozlov, ...",
         "year": "2024",
         "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.012815"
+    },
+    {
+        "title": "NSR Query Results",
+        "authors": "TV Dong, LT Phuc, NQ Hung, ND Dang, TD Huyen, NLA Tuan",
+        "year": "2024",
+        "link": "https://scholar.google.com/scholar?cluster=1914771540283726711&hl=en&oi=scholarr"
     },
     {
         "title": "Angular and polarization properties of characteristic x-ray radiation following inner-shell  photoionization of high- atoms",
