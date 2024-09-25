@@ -21,7 +21,6 @@
   email: A.Maiorova@gsi.de
   number_educ: 0
 
-
 - name: Dr. Andrey Bondarev
   role: Post Doctorate
   photo: bondarev.jpeg
@@ -29,15 +28,6 @@
   room: D202(HW)
   tel: 619
   email: a.bondarev@hi-jena.gsi.de
-  number_educ: 0
-
-- name: Dr. Giorgio Visentin
-  role: Post Doctorate
-  photo: giorgio.png
-  info: 
-  room: D205(HW)
-  tel: 622
-  email: g.visentin@hi-jena.gsi.de
   number_educ: 0
 
 - name: Shreyas Ramakrishna
