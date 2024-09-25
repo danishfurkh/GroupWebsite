@@ -1,5 +1,47 @@
 [
     {
+        "title": "Interaction of Hermite\u2013Gaussian Beams with a Macroscopic Atomic Target",
+        "authors": "S Ramakrishna, ZW Wu, AV Maiorova, S Fritzsche",
+        "year": "2024",
+        "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.202400048"
+    },
+    {
+        "title": "Hanle effect for lifetime determinations in the soft X-ray regime",
+        "authors": "M Togawa, J Richter, C Shah, M Botz, J Nenninger, J Danisch, J Goes, ...",
+        "year": "2024",
+        "link": "https://arxiv.org/abs/2408.12227"
+    },
+    {
+        "title": "Laser resonance chromatography of  in He: An ab initio investigation",
+        "authors": "G Visentin, A Borschevsky, LA Viehland, S Fritzsche, M Laatiaoui",
+        "year": "2024",
+        "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.023105"
+    },
+    {
+        "title": "Interaction of vector light beams with atoms exposed to a time-dependent magnetic field",
+        "authors": "S Ramakrishna, RP Schmidt, AA Peshkov, S Franke-Arnold, A Surzhykov, ...",
+        "year": "2024",
+        "link": "https://arxiv.org/abs/2407.17991"
+    },
+    {
+        "title": "High-dimensional maximally entangled photon pairs in parametric down-conversion",
+        "authors": "R Bernecker, B Baghdasaryan, S Fritzsche",
+        "year": "2024",
+        "link": "https://arxiv.org/abs/2407.09280"
+    },
+    {
+        "title": "Exploring valence-electron dynamics of xenon through laser-induced electron diffraction",
+        "authors": "F Liu, S Skruszewicz, J Sp\u00e4the, Y Zhang, S Hell, B Ying, GG Paulus, ...",
+        "year": "2024",
+        "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.013118"
+    },
+    {
+        "title": "Transport-property predictions for laser resonance chromatography on  ",
+        "authors": "G Visentin, H Ramanantoanina, A Borschevsky, L Viehland, B Jana, ...",
+        "year": "2024",
+        "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.012805"
+    },
+    {
         "title": "Merits of atomic cascade computations",
         "authors": "S Fritzsche, AK Sahoo, L Sharma, ZW Wu, S Schippers",
         "year": "2024",
@@ -55,15 +97,9 @@
     },
     {
         "title": "Coulomb excitation of hydrogen atoms by vortex ion beams",
-        "authors": "AV Maiorova, D Karlovets, S Fritzsche, A Surzhykov, T St\u00f6hlker",
+        "authors": "A Maiorova, D Karlovets, S Frizsche, A Surzhykov, T St\u00f6hlker",
         "year": "2024",
-        "link": "https://arxiv.org/abs/2403.17521"
-    },
-    {
-        "title": "Exploring Valence Electron Dynamics of Xenon through Laser-Induced Electron Diffraction",
-        "authors": "F Liu, S Skruszewicz, J Sp\u00e4the, Y Zhang, S Hell, B Ying, GG Paulus, ...",
-        "year": "2024",
-        "link": "https://arxiv.org/abs/2403.10473"
+        "link": "https://iopscience.iop.org/article/10.1088/1367-2630/ad73fd/meta"
     },
     {
         "title": "Competition of the Breit interaction in angular anisotropy of Auger electrons",
@@ -82,6 +118,12 @@
         "authors": "YC Wang, LG Jiao, S Fritzsche",
         "year": "2024",
         "link": "https://iopscience.iop.org/article/10.1088/1361-6455/ad285e/meta"
+    },
+    {
+        "title": "Exploring Valence Electron Dynamics of Xenon through Laser-Induced Electron Diffraction",
+        "authors": "F Liu, S Skruszewicz, J Sp\u00e4the, Y Zhang, S Hell, B Ying, GG Paulus, ...",
+        "year": "2024",
+        "link": "https://arxiv.org/abs/2403.10473"
     },
     {
         "title": "Transport property predictions for laser resonance chromatography on Rf (Z = 104)",
