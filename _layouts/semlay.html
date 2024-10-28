@@ -143,12 +143,7 @@ layout: default
           listItem += "Speaker: " + seminar.speaker + "<br>";
           listItem += "Title: " + seminar.title + "<br>";
           presentedSeminarList += listItem;
-        } else if (seminarSemester === currentSemester) {
-          var listItem = "<li><strong>" + seminar.date + "</strong><br>";
-          listItem += "Speaker: " + seminar.speaker + "<br>";
-          listItem += "Title: " + seminar.title + "<br>";
-          upcomingSeminarList += listItem;
-        }
+        } 
       }
 	  if (seminarSemester === currentSemester && seminarYear === currentYear && seminarMonth > 3) {
 		if (seminarDate.toLocaleDateString() === currentDate.toLocaleDateString()) {
