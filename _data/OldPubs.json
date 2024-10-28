@@ -1,9 +1,15 @@
 [
     {
+        "title": "Hanle effect for lifetime determinations in the soft X-ray regime",
+        "authors": "M Togawa, J Richter, C Shah, M Botz, J Nenninger, J Danisch, J Goes, ...",
+        "year": "2024",
+        "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.163202"
+    },
+    {
         "title": "Resonant Raman Auger spectroscopy on transient core-excited Ne ions",
         "authors": "T Mazza, TM Baumann, R Boll, A De Fanis, S Dold, M Ilchen, T Mullins, ...",
         "year": "2024",
-        "link": "https://pubishingsupport.iopscience.iop.org/article/10.1088/1361-6455/ad6369"
+        "link": "https://iopscience.iop.org/article/10.1088/1361-6455/ad6369/meta"
     },
     {
         "title": "Breit interaction in dielectronic recombination of hydrogenlike xenon ions: storage-ring experiment and theory",
@@ -30,12 +36,6 @@
         "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.202400048"
     },
     {
-        "title": "Hanle effect for lifetime determinations in the soft X-ray regime",
-        "authors": "M Togawa, J Richter, C Shah, M Botz, J Nenninger, J Danisch, J Goes, ...",
-        "year": "2024",
-        "link": "https://arxiv.org/abs/2408.12227"
-    },
-    {
         "title": "Laser resonance chromatography of  in He: An ab initio investigation",
         "authors": "G Visentin, A Borschevsky, LA Viehland, S Fritzsche, M Laatiaoui",
         "year": "2024",
@@ -52,12 +52,6 @@
         "authors": "G Visentin, H Ramanantoanina, A Borschevsky, L Viehland, B Jana, ...",
         "year": "2024",
         "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.012805"
-    },
-    {
-        "title": "p-wave resonances in the exponential cosine screened Coulomb potential",
-        "authors": "YC Wang, LG Jiao, A Liu, YK Ho, S Fritzsche",
-        "year": "2024",
-        "link": "https://pubishingsupport.iopscience.iop.org/article/10.1088/1572-9494/ad432d"
     },
     {
         "title": "Merits of atomic cascade computations",
@@ -90,6 +84,12 @@
         "link": "https://arxiv.org/abs/2405.02416"
     },
     {
+        "title": "p-Wave resonances in the exponential cosine screened Coulomb potential",
+        "authors": "Y Wang, LG Jiao, A Liu, YK Ho, S Fritzsche",
+        "year": "2024",
+        "link": "https://iopscience.iop.org/article/10.1088/1572-9494/ad432d/meta"
+    },
+    {
         "title": "Relativistic R-matrix calculations for the photoionization of W61+ ions",
         "authors": "ZW Wu, JQ Wang, Y Li, YH An, S Fritzsche",
         "year": "2024",
@@ -120,10 +120,10 @@
         "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.032817"
     },
     {
-        "title": "p-Wave resonances in the exponential cosine screened Coulomb potential",
-        "authors": "Y Wang, LG Jiao, A Liu, YK Ho, S Fritzsche",
+        "title": "p-wave resonances in the exponential cosine screened Coulomb potential",
+        "authors": "YC Wang, LG Jiao, A Liu, YK Ho, S Fritzsche",
         "year": "2024",
-        "link": "https://new.iopscience.iop.org/article/10.1088/1572-9494/ad432d"
+        "link": "https://pubishingsupport.iopscience.iop.org/article/10.1088/1572-9494/ad432d"
     },
     {
         "title": "Atomic photoexcitation as a tool for probing purity of twisted light modes",
