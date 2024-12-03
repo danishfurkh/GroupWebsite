@@ -1,15 +1,27 @@
 [
     {
+        "title": "Isomeric Population Transfer of the  Nucleus via Hyperfine Electronic Bridge",
+        "authors": "W Wang, F Zou, S Fritzsche, Y Li",
+        "year": "2024",
+        "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.223001"
+    },
+    {
+        "title": "A distorted-wave approach to the elastic scattering of twisted electrons",
+        "authors": "AL Harris, S Fritzsche",
+        "year": "2024",
+        "link": "https://arxiv.org/abs/2411.14558"
+    },
+    {
         "title": "Computation of effective collision strengths for plasma applications using JAC",
         "authors": "AK Sahoo, S Fritzsche, L Sharma",
         "year": "2024",
         "link": "https://link.springer.com/article/10.1140/epjp/s13360-024-05747-2"
     },
     {
-        "title": "Quadratic Zeeman and Electric Quadrupole Shifts in Highly Charged Ions",
+        "title": "Quadratic Zeeman and electric quadrupole shifts in highly charged ions",
         "authors": "J Gilles, S Fritzsche, LJ Spie\u00df, PO Schmidt, A Surzhykov",
         "year": "2024",
-        "link": "https://arxiv.org/abs/2411.05687"
+        "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.052812"
     },
     {
         "title": "Hanle effect for lifetime determinations in the soft X-ray regime",
@@ -106,6 +118,12 @@
         "authors": "ZW Wu, JQ Wang, Y Li, YH An, S Fritzsche",
         "year": "2024",
         "link": "https://pubs.aip.org/aip/pop/article/31/4/043301/3283102"
+    },
+    {
+        "title": "Quadratic Zeeman and Electric Quadrupole Shifts in Highly Charged Ions",
+        "authors": "J Gilles, S Fritzsche, LJ Spie\u00df, PO Schmidt, A Surzhykov",
+        "year": "2024",
+        "link": "https://arxiv.org/abs/2411.05687"
     },
     {
         "title": "Bound state energies and critical bound region in the semiclassical dense hydrogen plasmas",
