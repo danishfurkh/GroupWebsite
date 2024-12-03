@@ -1,7 +1,7 @@
 ---
-title: "Aomic group - Software"
+title: "Atomic group - Software"
 layout: textlay
-excerpt: "Aomic group -- Software"
+excerpt: "Atomic group -- Software"
 sitemap: false
 permalink: /software/
 ---
