@@ -1,7 +1,7 @@
 ---
 title: "Atomic group - Collaborations"
 layout: textlay
-excerpt: "Aomic group -- Collaborations"
+excerpt: "Atomic group -- Collaborations"
 sitemap: false
 permalink: /collaborations/
 ---
