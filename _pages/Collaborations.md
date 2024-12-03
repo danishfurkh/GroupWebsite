@@ -1,5 +1,5 @@
 ---
-title: "Aomic group - Collaborations"
+title: "Atomic group - Collaborations"
 layout: textlay
 excerpt: "Aomic group -- Collaborations"
 sitemap: false
