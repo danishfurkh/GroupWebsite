@@ -1,5 +1,17 @@
 [
     {
+        "title": "Geant4 atomic relaxation data for transfermium nuclei (Z= 101\u2013104)",
+        "authors": "R Chakma, S Fritzsche, K Hauschild, A Lopez-Martens",
+        "year": "2024",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0168900224010702"
+    },
+    {
+        "title": "Chemical Evolution of R-process Elements in Stars (CERES): IV. An observational run-up of the third r-process peak with Hf, Os, Ir, and Pt",
+        "authors": "AA Puls, J Kuske, CJ Hansen, L Lombardo, G Visentin, A Arcones, ...",
+        "year": "2024",
+        "link": "https://arxiv.org/abs/2412.00195"
+    },
+    {
         "title": "Isomeric Population Transfer of the  Nucleus via Hyperfine Electronic Bridge",
         "authors": "W Wang, F Zou, S Fritzsche, Y Li",
         "year": "2024",
@@ -16,6 +28,12 @@
         "authors": "AK Sahoo, S Fritzsche, L Sharma",
         "year": "2024",
         "link": "https://link.springer.com/article/10.1140/epjp/s13360-024-05747-2"
+    },
+    {
+        "title": "Chemical Evolution of R-process Elements in Stars (CERES): IV. An observational run-up of the third r-process peak with Hf, Os, Ir, and Pt",
+        "authors": "A Alencastro Puls, J Kuske, CJ Hansen, L Lombardo, G Visentin, ...",
+        "year": "2024",
+        "link": "https://ui.adsabs.harvard.edu/abs/2024arXiv241200195A/abstract"
     },
     {
         "title": "Quadratic Zeeman and electric quadrupole shifts in highly charged ions",
