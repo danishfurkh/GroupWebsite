@@ -132,7 +132,7 @@ layout: default
       var seminarSemester = seminarMonth >= 4 && seminarMonth <= 9 ? 'Summer' : 'Winter';
 	  var seminarDay = seminarDate.getDate();
 	  
-      if (seminarSemester === currentSemester && (seminarMonth > 9 && seminarYear === currentYear) || (seminarYear === currentYear && seminarMonth < 4 && currentMonth < 4)) {
+      if (seminarSemester === currentSemester || (seminarMonth > 9 && seminarYear === currentYear) || (seminarYear === currentYear && seminarMonth < 4 && currentMonth < 4)) {
         if (seminarDate.toLocaleDateString() === currentDate.toLocaleDateString()) {
           var listItem = "<li><strong>" + seminar.date + "</strong><br>";
           listItem += "Speaker: " + seminar.speaker + "<br>";
