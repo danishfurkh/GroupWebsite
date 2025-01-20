@@ -1,7 +1,7 @@
 ---
-title: "Aomic group - Research"
+title: "Atomic group - Research"
 layout: textlay
-excerpt: "Aomic group -- Research"
+excerpt: "Atomic group -- Research"
 sitemap: false
 permalink: /research/
 ---
