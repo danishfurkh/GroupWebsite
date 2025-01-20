@@ -1,7 +1,7 @@
 ---
-title: "Aomic group - Teaching"
+title: "Atomic group - Teaching"
 layout: textlay
-excerpt: "Aomic group -- Teaching"
+excerpt: "Atomic group -- Teaching"
 sitemap: false
 permalink: /teaching/
 ---
