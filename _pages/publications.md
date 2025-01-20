@@ -1,7 +1,7 @@
 ---
-title: "Aomic group - Publications"
+title: "Atomic group - Publications"
 layout: publications
-excerpt: "Aomic group -- Publications."
+excerpt: "Atomic group -- Publications."
 sitemap: false
 permalink: /publications/
 ---
