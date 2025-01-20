@@ -2,7 +2,7 @@
     {
         "title": "Geant4 atomic relaxation data for transfermium nuclei (Z= 101\u2013104)",
         "authors": "R Chakma, S Fritzsche, K Hauschild, A Lopez-Martens",
-        "year": "2024",
+        "year": "2025",
         "link": "https://www.sciencedirect.com/science/article/pii/S0168900224010702"
     },
     {
@@ -54,7 +54,7 @@
         "link": "https://iopscience.iop.org/article/10.1088/1361-6455/ad6369/meta"
     },
     {
-        "title": "Breit interaction in dielectronic recombination of hydrogenlike xenon ions: storage-ring experiment and theory",
+        "title": "Breit interaction in dielectronic recombination of hydrogenlike xenon ions: Storage-ring experiment and theory",
         "authors": "SX Wang, C Brandau, S Fritzsche, S Fuchs, Z Harman, C Kozhuharov, ...",
         "year": "2024",
         "link": "https://link.springer.com/article/10.1140/epjd/s10053-024-00914-7"
@@ -118,6 +118,12 @@
         "authors": "L Xu, FM Fern\u00e1ndez, LG Jiao, HE Montgomery, YK Ho, S Fritzsche",
         "year": "2024",
         "link": "https://iopscience.iop.org/article/10.1088/1402-4896/ad42e5/meta"
+    },
+    {
+        "title": "Breit interaction in dielectronic recombination of hydrogenlike xenon ions: storage-ring experiment and theory",
+        "authors": "SX Wang, C Brandau, S Fritzsche, S Fuchs, Z Harman, C Kozhuharov, ...",
+        "year": "2024",
+        "link": "https://link.springer.com/article/10.1140/epjd/s10053-024-00914-7"
     },
     {
         "title": "Laser Resonance Chromatography of Th in He: an ab initio investigation",
