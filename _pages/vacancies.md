@@ -1,5 +1,5 @@
 ---
-title: "Aomic group - vacancies"
+title: "Atomic group - vacancies"
 layout: textlay
 excerpt: "Aomic group -- vacancies"
 sitemap: false
