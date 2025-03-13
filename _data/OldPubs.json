@@ -1,15 +1,51 @@
 [
     {
+        "title": "Amplified Collective Auger Decay of Double Inner-Shell Vacancy in Xe",
+        "authors": "Y Hikosaka, S Fritzsche",
+        "year": "2025",
+        "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.103001"
+    },
+    {
+        "title": "Dielectronic and tri-electronic recombination strengths of low-lying resonances and plasma rate coefficients for beryllium-like argon ions",
+        "authors": "H Huang, Y Yuan, N Hosea, R Si, S Fritzsche",
+        "year": "2025",
+        "link": "https://link.springer.com/article/10.1140/epjd/s10053-025-00961-8"
+    },
+    {
         "title": "Geant4 atomic relaxation data for transfermium nuclei (Z= 101\u2013104)",
         "authors": "R Chakma, S Fritzsche, K Hauschild, A Lopez-Martens",
         "year": "2025",
         "link": "https://www.sciencedirect.com/science/article/pii/S0168900224010702"
     },
     {
-        "title": "Chemical Evolution of R-process Elements in Stars (CERES): IV. An observational run-up of the third r-process peak with Hf, Os, Ir, and Pt",
+        "title": "Testing strong-field QED to second-order in the highly correlated atomic system berylliumlike Pb78+ by electron-ion recombination spectroscopy",
+        "authors": "S Schippers, C Brandau, S Fuchs, M Lestinsky, SX Wang, CY Zhang, ...",
+        "year": "2025",
+        "link": "https://arxiv.org/abs/2502.15433"
+    },
+    {
+        "title": "Neutral Sulfur Atom Formation in Decay of Deep Core Holes in ",
+        "authors": "O Travnikova, F Trinter, M Ag\u00e5ker, G Visentin, J Andersson, L Kjellsson, ...",
+        "year": "2025",
+        "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.063003"
+    },
+    {
+        "title": "Interaction Between Atoms and Structured Light Fields",
+        "authors": "S Ramakrishna, S Fritzsche",
+        "year": "2025",
+        "link": "https://www.mdpi.com/2218-2004/13/2/20"
+    },
+    {
+        "title": "Diagnostics of Spin-Polarized Ions at Storage Rings",
+        "authors": "A Maiorova, S Fritzsche, A Surzhykov, T St\u00f6hlker",
+        "year": "2025",
+        "link": "https://www.mdpi.com/2218-2004/13/2/15"
+    },
+    {
+        "title": "Chemical Evolution of R-process Elements in Stars (CERES)-IV. An observational run-up of the third r-process peak with Hf, Os, Ir, and Pt",
         "authors": "AA Puls, J Kuske, CJ Hansen, L Lombardo, G Visentin, A Arcones, ...",
-        "year": "2024",
-        "link": "https://arxiv.org/abs/2412.00195"
+        "year": "2025",
+        "link": "https://www.aanda.org/articles/aa/abs/2025/01/aa52537-24/aa52537-24.html"
     },
     {
         "title": "Isomeric Population Transfer of the  Nucleus via Hyperfine Electronic Bridge",
@@ -28,12 +64,6 @@
         "authors": "AK Sahoo, S Fritzsche, L Sharma",
         "year": "2024",
         "link": "https://link.springer.com/article/10.1140/epjp/s13360-024-05747-2"
-    },
-    {
-        "title": "Chemical Evolution of R-process Elements in Stars (CERES): IV. An observational run-up of the third r-process peak with Hf, Os, Ir, and Pt",
-        "authors": "A Alencastro Puls, J Kuske, CJ Hansen, L Lombardo, G Visentin, ...",
-        "year": "2024",
-        "link": "https://ui.adsabs.harvard.edu/abs/2024arXiv241200195A/abstract"
     },
     {
         "title": "Quadratic Zeeman and electric quadrupole shifts in highly charged ions",
@@ -66,6 +96,12 @@
         "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.043101"
     },
     {
+        "title": "Coulomb excitation of hydrogen atoms by vortex ion beams",
+        "authors": "AV Maiorova, D Karlovets, S Fritzsche, A Surzhykov, T St\u00f6hlker",
+        "year": "2024",
+        "link": "https://iopscience.iop.org/article/10.1088/1367-2630/ad73fd/meta"
+    },
+    {
         "title": "High-dimensional maximally entangled photon pairs in parametric down-conversion",
         "authors": "R Bernecker, B Baghdasaryan, S Fritzsche",
         "year": "2024",
@@ -82,6 +118,18 @@
         "authors": "G Visentin, A Borschevsky, LA Viehland, S Fritzsche, M Laatiaoui",
         "year": "2024",
         "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.023105"
+    },
+    {
+        "title": "Chemical Evolution of R-process Elements in Stars (CERES): IV. An observational run-up of the third r-process peak with Hf, Os, Ir, and Pt",
+        "authors": "AA Puls, J Kuske, CJ Hansen, L Lombardo, G Visentin, A Arcones, ...",
+        "year": "2024",
+        "link": "https://arxiv.org/abs/2412.00195"
+    },
+    {
+        "title": "Chemical Evolution of R-process Elements in Stars (CERES): IV. An observational run-up of the third r-process peak with Hf, Os, Ir, and Pt",
+        "authors": "A Alencastro Puls, J Kuske, CJ Hansen, L Lombardo, G Visentin, ...",
+        "year": "2024",
+        "link": "https://ui.adsabs.harvard.edu/abs/2024arXiv241200195A/abstract"
     },
     {
         "title": "Exploring valence-electron dynamics of xenon through laser-induced electron diffraction",
@@ -160,12 +208,6 @@
         "authors": "DF Dar, S Fritzsche",
         "year": "2024",
         "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.L041101"
-    },
-    {
-        "title": "Coulomb excitation of hydrogen atoms by vortex ion beams",
-        "authors": "AV Maiorova, D Karlovets, S Fritzsche, A Surzhykov, T St\u00f6hlker",
-        "year": "2024",
-        "link": "https://arxiv.org/abs/2403.17521"
     },
     {
         "title": "Competition of the Breit interaction in angular anisotropy of Auger electrons",
